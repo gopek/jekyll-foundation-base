@@ -1,3 +1,5 @@
 *.sublime-*
 Gemfile.lock
 node_modules
+*.lock
+package-lock.json
