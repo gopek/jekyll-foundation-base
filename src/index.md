@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: f6
 title: "Happy Jekylling!"
 ---
 
