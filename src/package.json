@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foundationjs": "ncp node_modules/foundation-sites/dist/js/foundation.min.js assets/js/vendor/foundation.min.js --stopOnErr",
+    "foundationmap": "ncp node_modules/foundation-sites/dist/js/foundation.min.js.map assets/js/vendor/foundation.min.js.map --stopOnErr",
+    "jquery": "ncp node_modules/jquery/dist/jquery.min.js assets/js/vendor/jquery.min.js --stopOnErr",
+    "jquerymap": "ncp node_modules/jquery/dist/jquery.min.map assets/js/vendor/jquery.min.map --stopOnErr",
+    "whatinput": "ncp node_modules/what-input/dist/what-input.min.js assets/js/vendor/what-input.min.js --stopOnErr",
+    "copyjs": "npm run foundationjs & npm run foundationmap &npm run jquery & npm run jquerymap & npm run whatinput"
+
   },
   "author": "gopek",
   "license": "ISC",
   "dependencies": {
     "foundation-sites": "^6.6.0",
     "jquery": "^3.4.1",
+    "ncp": "^2.0.0",
     "what-input": "^5.2.6"
   }
 }
