@@ -10,7 +10,8 @@
     "jquery": "ncp node_modules/jquery/dist/jquery.min.js assets/js/vendor/jquery.min.js --stopOnErr",
     "jquerymap": "ncp node_modules/jquery/dist/jquery.min.map assets/js/vendor/jquery.min.map --stopOnErr",
     "whatinput": "ncp node_modules/what-input/dist/what-input.min.js assets/js/vendor/what-input.min.js --stopOnErr",
-    "copyjs": "npm run foundationjs & npm run foundationmap &npm run jquery & npm run jquerymap & npm run whatinput"
+    "whatinputmap": "ncp node_modules/what-input/dist/maps/what-input.min.js.map assets/js/vendor/maps/what-input.min.js.map --stopOnErr",
+    "copyjs": "npm run foundationjs & npm run foundationmap &npm run jquery & npm run jquerymap & npm run whatinput & npm run whatinputmap"
 
   },
   "author": "gopek",

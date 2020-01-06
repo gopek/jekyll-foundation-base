@@ -11,7 +11,11 @@ sass:
   load_paths:
     - _sass
     - node_modules/foundation-sites/scss
+  #style: compressed
+  #sourcemap: false
 
 exclude: 
   - package.json
   - package-lock.json
+
+foundation_dir: "path to foundation_dir"
