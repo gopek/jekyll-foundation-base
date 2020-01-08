@@ -14,5 +14,6 @@ Run these commands to set up :
 ```bash
 git clone https://github.com/gopek/jekyll-foundation-base.git
 cd jekyll-foundation-base
+bundler install
 npm install
 ```
