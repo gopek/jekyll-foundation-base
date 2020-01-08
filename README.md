@@ -4,6 +4,11 @@ A base Jekyll static site generator configuration using Zurb foundation
 ## Documentation
 Run these commands to set up :
 
+## Prerequities
+
+* Jekyll - https://jekyllrb.com/docs/
+* npmjs - https://www.npmjs.com/get-npm 
+
 ## Installation
 
 ```bash
