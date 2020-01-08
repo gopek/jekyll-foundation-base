@@ -1,5 +1,5 @@
 # jekyll-foundation-base
-A base Jekyll static site generator configuration using Zurb foundation 
+A Jekyll static site generator configuration using Zurb foundation 
 
 ## Documentation
 Run these commands to set up :
