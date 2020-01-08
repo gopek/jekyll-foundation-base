@@ -19,3 +19,40 @@ exclude:
   - package-lock.json
 
 foundation_dir: "path to foundation_dir"
+
+site_resources:
+  # foundation
+  - name: 'foundation.min.js' 
+    src_base: 'node_modules/foundation-sites/dist/js'
+    file: 'foundation.min.js'
+    dest_base: 'assets/js/vendor' 
+  - name: 'foundation.js.map' 
+    src_base: 'node_modules/foundation-sites/dist/js'
+    file: 'foundation.min.js.map'
+    dest_base: 'assets/js/vendor'   
+  - name: 'foundation.min.css' 
+    src_base: 'node_modules/foundation-sites/dist/css'
+    file: 'foundation.min.css'
+    dest_base: 'assets/css/vendor'     
+  - name: 'foundation.min.css.map' 
+    src_base: 'node_modules/foundation-sites/dist/css'
+    file: 'foundation.min.css.map'
+    dest_base: 'assets/css/vendor'         
+  # jquery  
+  - name: 'jquery.min.js'
+    src_base: 'node_modules/jquery/dist'
+    file: 'jquery.min.js'
+    dest_base: 'assets/js/vendor' 
+  - name: 'jquery.min.map'
+    src_base: 'node_modules/jquery/dist'
+    file: 'jquery.min.map'
+    dest_base: 'assets/js/vendor'   
+# what-input
+  - name: 'what-input.min.js'
+    src_base: 'node_modules/what-input/dist'
+    file: 'what-input.min.js'
+    dest_base: 'assets/js/vendor' 
+  - name: 'what-input.min.js.map'
+    src_base: 'node_modules/what-input/dist/maps'
+    file: 'what-input.min.js.map'
+    dest_base: 'assets/js/vendor/maps' 

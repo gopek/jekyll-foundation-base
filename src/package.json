@@ -5,14 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "foundationjs": "ncp node_modules/foundation-sites/dist/js/foundation.min.js assets/js/vendor/foundation.min.js --stopOnErr",
-    "foundationmap": "ncp node_modules/foundation-sites/dist/js/foundation.min.js.map assets/js/vendor/foundation.min.js.map --stopOnErr",
-    "jquery": "ncp node_modules/jquery/dist/jquery.min.js assets/js/vendor/jquery.min.js --stopOnErr",
-    "jquerymap": "ncp node_modules/jquery/dist/jquery.min.map assets/js/vendor/jquery.min.map --stopOnErr",
-    "whatinput": "ncp node_modules/what-input/dist/what-input.min.js assets/js/vendor/what-input.min.js --stopOnErr",
-    "whatinputmap": "ncp node_modules/what-input/dist/maps/what-input.min.js.map assets/js/vendor/maps/what-input.min.js.map --stopOnErr",
-    "copyjs": "npm run foundationjs & npm run foundationmap &npm run jquery & npm run jquerymap & npm run whatinput & npm run whatinputmap"
-
   },
   "author": "gopek",
   "license": "ISC",
