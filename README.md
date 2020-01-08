@@ -17,3 +17,8 @@ cd jekyll-foundation-base
 bundler install
 npm install
 ```
+## Run locally
+```bash
+bundler exec jekyll serve
+```
+
